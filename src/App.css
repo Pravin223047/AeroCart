@@ -1,0 +1,62 @@
+/* General Styles */
+button {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Header Animations */
+.header-button {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.header-button:hover {
+  transform: scale(1.1);
+}
+
+.header-icon {
+  transition: color 0.3s ease;
+}
+
+/* Cart Sidebar Animation */
+.cart-sidebar {
+  transition: transform 0.3s ease;
+}
+
+.cart-sidebar.open {
+  transform: translateX(0);
+}
+
+.cart-sidebar.closed {
+  transform: translateX(100%);
+}
+
+/* Product Card Animation */
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Modal Animation */
+.modal {
+  transition: opacity 0.3s ease;
+}
+
+.modal.show {
+  opacity: 1;
+}
+
+.modal.hide {
+  opacity: 0;
+}
+
+/* Toast Notifications */
+.toast {
+  transition: opacity 0.3s ease;
+}
